@@ -36,9 +36,9 @@ def create_ppt_from_images(image_folder, output_ppt):
     print(f"Presentation saved as {output_ppt}")
 
 if __name__ == "__main__":
-    pdf_path = "REU_2024.pdf"  # Replace with your PDF file path
+    pdf_path = "PageSizes_output.pdf"  # Replace with your PDF file path
     output_folder = "output_images"
-    output_ppt = "FinalPresentation.pptx"
+    output_ppt = "ppt_file.pptx"
     
     pdf_to_png(pdf_path, output_folder)
     create_ppt_from_images(output_folder, output_ppt)
